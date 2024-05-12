@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab04</string>
+    <string-array name="items_option">
+        <item>Update</item>
+        <item>Delete</item>
+        <item>ghugh</item>
+
+    </string-array>
+</resources>
