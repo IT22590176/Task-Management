@@ -9,6 +9,14 @@
     android:padding="14dp"
     tools:context=".EditorActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter User Details"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="28dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -20,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:hint="Enter User Name"/>
+            android:hint="Enter User Name"
+            android:layout_marginBottom="18dp"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -34,7 +43,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:hint="Enter Email"/>
+            android:hint="Enter Email"
+            android:layout_marginBottom="18dp"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -48,7 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
-            android:hint="Enter Phone Number"/>
+            android:hint="Enter Phone Number"
+            android:layout_marginBottom="18dp"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 

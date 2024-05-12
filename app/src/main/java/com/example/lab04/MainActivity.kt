@@ -5,6 +5,7 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         fab = findViewById(R.id.fab)
         editSearch = findViewById(R.id.edit_search)
         btnSearch = findViewById(R.id.btn_search)
+
 
 
         database = AppDatabase.getInstance(applicationContext)
@@ -78,7 +80,6 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "Sri lankan Person!", LENGTH_SHORT).show()
             }
         }
-
 
     }
 
